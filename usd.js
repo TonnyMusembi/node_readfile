@@ -24,6 +24,6 @@ async function getPortfolioValuePerToken(date) {
     for (const coin of portfolio) {
         totalMarketCap += coin.market_cap;
     }
-
     return totalMarketCap / portfolio.length;
+    console.log(portfolio.length);
 }
