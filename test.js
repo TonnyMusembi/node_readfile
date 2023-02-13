@@ -40,7 +40,6 @@ fs.createReadStream(filename)
         } else {
             date = moment();
         }
-
         // Output the portfolio value
         if (token) {
             console.log(`${token}: $${portfolio[token]}`);

@@ -14,5 +14,6 @@ request(apiUrl, (error, response, body) => {
     }
 
     const data = JSON.parse(body);
+
     // Convert data as needed...
 });
